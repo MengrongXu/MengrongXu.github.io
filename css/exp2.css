@@ -1,0 +1,179 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+
+/*body {
+	font: 1em/1.5 'Open Sans', sans-serif;
+	color: #373737;
+	background: #eaeaea;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+}
+h1,
+h2,
+h3 {
+	text-transform: uppercase;
+}
+h2 {
+	font-size: 1.125em;
+	color: #4a89ca;
+	font-weight: 600;
+	margin: 0;
+}
+h3 {
+	font-size: 1.3em;
+	line-height: 1.25em;
+	margin-top: 0;
+	margin-bottom: .5em;
+}
+p {
+	font-size: .875em;
+	line-height: 1.4;
+	margin: 0 0 1em;
+}*/
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* ---- Layout Containers ---- */
+
+
+.photo-container {
+	text-align: center;
+	margin-bottom: 5px;
+}
+/* ---- Page Elements ---- */
+
+.photo-container img {
+ 	max-width: 100%;
+ 	position: relative;
+	z-index: 100;
+}
+.button {
+	color: #fff;
+	width: 75%;
+	font-weight: 700;
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 15px 0;
+	border: white solid 1px;
+	margin: .3em 0 0;
+}
+.photo {
+	position: relative;
+	line-height: 0;
+}
+
+
+.photo-desc {
+	color: #F34452;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0; 
+	left: 0;
+	padding-left: 5px;
+	padding-right: 5px;
+	display: flex; /* For centering text inside .photo-overlay */
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #F34452;
+	line-height: 0;
+}
+/* ---- Float clearfix ---- */
+
+.clearfix::after {
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+/* ================================= 
+  Button Transitions
+==================================== */
+
+.button {
+	transition: background .3s;
+}
+.button:hover a {
+	background: grey;
+}
+
+/* ================================= 
+  Photo 3D Transforms & Transitions
+==================================== */
+
+.content {
+	perspective: 700px;
+	-webkit-backface-visibility: hidden;
+}
+
+.photo {
+	transition: transform 1s cubic-bezier(.55, -.62, .27, 1.2);
+  transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+}
+.photo:hover {
+  transform: rotateY(-180deg);
+  -webkit-backface-visibility: hidden;
+}
+.side-a,
+.side-b {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.side-b {
+  transform: rotateY(180deg);
+  -webkit-backface-visibility: hidden;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 0) and (max-width: 768px) {
+	.container {
+		padding: 0 1.225em 2.5em;
+	}
+}
+@media (min-width: 769px) {
+	.container {
+		padding: 0 2.25em 3em;
+	}
+	.photo-container {
+		width: 48%;
+		float: left;
+		margin-left: 4%;
+	}
+}
+@media (min-width: 769px) and (max-width: 1024px) { 
+	.photo-container:nth-child(2n+1) {
+		margin-left: 0;
+		clear: left;
+	}
+
+}
+@media (min-width: 1025px) { 
+	.photo-container {
+		width: 30.63973064%;
+	}
+	.photo-container:nth-child(3n+1) {
+		margin-left: 0;
+		clear: left;
+	}
+}
+
+.photo-container .photo .photo hover:{-webkit-backface-visibility: hidden;
+-moz-backface-visibility: hidden;
+-ms-backface-visibility: hidden;
+backface-visibility: hidden;
+ 
+-webkit-perspective: 1000;
+-moz-perspective: 1000;
+-ms-perspective: 1000;
+perspective: 1000;}

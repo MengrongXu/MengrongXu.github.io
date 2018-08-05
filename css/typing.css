@@ -1,0 +1,28 @@
+@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+
+
+/*.book-lover { 
+	font: bold 300% Raleway,  monospace;
+	border-right: .1em solid white;
+	width: 13.5em; 
+	width: 13.5ch;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 3s steps(60, end),
+	           blink-caret .5s /*step-end infinite alternate;
+}*/
+
+.digital { 
+	font: bold 300% Raleway,  monospace;
+	border-right: .1em solid white;
+	width: 22.5em; 
+	width: 22.5ch;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 6s steps(70, end),
+	           blink-caret .5s /*step-end infinite alternate;*/
+
+}
+
+

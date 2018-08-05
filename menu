@@ -1,0 +1,118 @@
+.menu.nav{
+ position: relative;
+ padding-left: 20px;
+ padding-right: 20px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ font-size: 1.25rem;
+ color: #222222;
+ border-color: rgba(34, 34, 34, 0.05);
+ background-color: white;
+ -webkit-transition: all .35s;
+ -moz-transition: all .35s;
+ transition: all .35s;
+ font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+ font-weight: 200;
+ letter-spacing: 1px; 
+}
+
+
+#dhtml_menu-269{
+  
+  margin-left: 80px;
+  padding-top: 5px;
+}
+
+.active{
+  font-weight: 200;
+  letter-spacing: 1px;
+  vertical-align: middle;
+}
+
+#dhtml_menu-736{
+    
+    font-size: 11px;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-left: 750px;
+    display: inline;
+    padding-top: 8px;
+
+}
+
+#dhtml_menu-737{
+  
+    font-size: 11px;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline;
+    margin-left: 20px;
+    color: #222222;
+    padding-top: 8px;
+    }
+    
+
+
+#dhtml_menu-738{
+    
+    font-size: 11px;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inlne;
+    margin-left: 20px;
+    color: #222222;
+    padding-top: 8px;
+
+    }
+    
+@media (min-width: 992px) {
+.menu.nav{ 
+  background: url("http://dev-gugugua.pantheonsite.io/assets/img/bg-pattern.png"), #7b4397;
+  background: url("http://dev-gugugua.pantheonsite.io/assets/img/bg-pattern.png"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
+  background: url("http://dev-gugugua.pantheonsite.io/assets/img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
+  }}
+  
+@media (max-width: 900px) {
+#dhtml_menu-736{ 
+  position: relative;
+  margin-top: 30px;
+  margin-left: 80px;
+  }}
+@media (max-width: 900px) {
+#dhtml_menu-737{ 
+  position: relative;
+  margin-top: 30px;
+  margin-left: 20px;
+  }}
+@media (max-width: 900px) {
+#dhtml_menu-738{ 
+  position: relative;
+  margin-top: 30px;
+  margin-left: 20px;
+  }}
+
+
+@media (max-width: 600px) {
+#dhtml_menu-736{ 
+  position: relative;
+  margin-top: 30px;
+  margin-left: -200px;
+  }}
+@media (max-width: 600px) {
+#dhtml_menu-737{ 
+  position: relative;
+  margin-top: 30px;
+  margin-left: 20px;
+  }}
+@media (max-width: 600px) {
+#dhtml_menu-738{ 
+  position: relative;
+  margin-top: 30px;
+  margin-left: 20px;
+  }}
+  
+
+  

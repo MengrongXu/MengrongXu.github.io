@@ -1,8 +1,8 @@
 $(window).on('load',function() {
-    $(".preloader").fadeOut("quick", function(){
-      	$(".preloader-left").addClass("slide-left");
-      	$(".preloader-right").addClass("slide-right");
-    });
+    // $(".preloader").fadeOut("quick", function(){
+    //   	$(".preloader-left").addClass("slide-left");
+    //   	$(".preloader-right").addClass("slide-right");
+    // });
 });
 
 $('.portfolio-block, .menu-item').on('click', function() {

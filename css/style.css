@@ -277,7 +277,7 @@ strong, small {
     height: 100%;
     position: absolute;
     overflow: hidden;
-    background: url(http://dev-gugugua.pantheonsite.io/megan.jpg) #444 50% 50% ;
+    background: url(../images/megan.jpg) #444 50% 50% ;
     background-size: cover;
 }
 
@@ -1738,7 +1738,7 @@ ul.info-list li strong {
 
 @media (max-width:800px) and (orientation:landscape) {
 	.home {
-		background: url(http://dev-gugugua.pantheonsite.io/megan.jpg) 30% 30%;
+		background: url(../images/megan.jpg) 30% 30%;
 		overflow-y: scroll;
 	}
 
@@ -1812,7 +1812,7 @@ ul.info-list li strong {
 @media (max-width:800px) {
 
 	.home {
-		background: url(http://dev-gugugua.pantheonsite.io/megan.jpg) 30% 30%;
+		background: url(../images/megan.jpg) 30% 30%;
         overflow-y: scroll;
 	}
 
@@ -1887,7 +1887,7 @@ ul.info-list li strong {
 @media (max-width:568px) {
 
 	.home {
-        background: url(http://dev-gugugua.pantheonsite.io/megan.jpg) 70% 20%;
+        background: url(../images/megan.jpg) 70% 20%;
 		overflow-y: scroll;
 	}
 
